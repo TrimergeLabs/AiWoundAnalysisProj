@@ -1,0 +1,139 @@
+/* Global App Styles */
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Navigation Styles */
+.navBar {
+  background: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.navBar h1 {
+  color: #3c009d;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.navBar button {
+  background: #4c00b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navBar button:hover {
+  background: #3c009d;
+  transform: translateY(-1px);
+}
+
+/* Card Container */
+.card-container {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Common Button Styles */
+.btn-primary {
+  background: #4c00b4;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #3c009d;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: #eaeaea;
+  color: #797979;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #ddd;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #4c00b4;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error and Success Messages */
+.error-message {
+  background-color: #fee;
+  color: #c33;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #c33;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.success-message {
+  background-color: #efe;
+  color: #3c3;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #3c3;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .card-container {
+    margin: 10px;
+    padding: 20px;
+  }
+}

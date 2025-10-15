@@ -1,0 +1,411 @@
+/* Result.css */
+.result-container {
+    min-height: 100vh;
+    background: linear-gradient(#2A00B7, #42006c);
+    padding: 20px;
+}
+
+.result-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.result-header {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-title {
+    color: #3c009d;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.result-actions button {
+    background: #4c00b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.result-actions button:hover {
+    background: #3c009d;
+    transform: translateY(-1px);
+}
+
+.result-content {
+    display: grid;
+    gap: 25px;
+}
+
+/* Result Summary Section */
+.result-summary {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.summary-header {
+    color: #3c009d;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.summary-item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.summary-label {
+    font-weight: 600;
+    color: #555;
+    min-width: 80px;
+}
+
+.summary-value {
+    color: #333;
+    flex: 1;
+}
+
+.severity-badge {
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.severity-badge.severe {
+    background-color: #f44336;
+    color: white;
+}
+
+.severity-badge.moderate {
+    background-color: #ff9800;
+    color: white;
+}
+
+.severity-badge.mild {
+    background-color: #4caf50;
+    color: white;
+}
+
+.severity-badge.default {
+    background-color: #2196f3;
+    color: white;
+}
+
+/* Recommendations Section */
+.recommendations-section {
+    background: #fff3e0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #ff9800;
+}
+
+.recommendations-header {
+    color: #e65100;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.recommendations-text {
+    color: #bf360c;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Media Section */
+.media-section {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.media-header {
+    color: #3c009d;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.media-content {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Wound Details Section */
+.wound-details-section {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.wound-details-header {
+    color: #3c009d;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4c00b4;
+}
+
+.wound-summary {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wound-summary-label {
+    font-weight: 600;
+    color: #555;
+}
+
+.wound-summary-value {
+    color: #3c009d;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.wound-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #2196f3;
+    transition: all 0.3s ease;
+}
+
+.wound-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.wound-item.severe {
+    border-left-color: #f44336;
+}
+
+.wound-item.moderate {
+    border-left-color: #ff9800;
+}
+
+.wound-item.mild {
+    border-left-color: #4caf50;
+}
+
+.wound-item-title {
+    color: #3c009d;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.wound-detail {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.wound-detail-label {
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.wound-detail-value {
+    color: #333;
+}
+
+.wound-alert {
+    color: #f44336;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.pus-warning {
+    color: #f44336;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Action Buttons */
+.result-actions-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-dashboard {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+.btn-dashboard:hover {
+    background: #1976d2;
+    transform: translateY(-1px);
+}
+
+.btn-print {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+.btn-print:hover {
+    background: #388e3c;
+    transform: translateY(-1px);
+}
+
+/* Loading State */
+.result-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    color: #3c009d;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .result-container {
+        padding: 10px;
+    }
+
+    .result-header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .result-actions button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .summary-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .wound-summary {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-dashboard,
+    .btn-print {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .result-title {
+        font-size: 22px;
+    }
+
+    .summary-header,
+    .recommendations-header,
+    .media-header,
+    .wound-details-header {
+        font-size: 18px;
+    }
+
+    .result-summary,
+    .recommendations-section,
+    .media-section,
+    .wound-details-section,
+    .result-actions-container {
+        padding: 20px;
+    }
+
+    .wound-item {
+        padding: 15px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .result-container {
+        background: white;
+        padding: 0;
+    }
+
+    .result-header,
+    .result-actions-container {
+        display: none;
+    }
+
+    .result-summary,
+    .recommendations-section,
+    .media-section,
+    .wound-details-section {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+}

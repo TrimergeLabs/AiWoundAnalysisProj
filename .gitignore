@@ -1,0 +1,84 @@
+# ---------------------------
+# Node / Express (Backend)
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Build / coverage
+dist/
+build/
+coverage/
+.cache/
+
+# ---------------------------
+# React (Frontend)
+# ---------------------------
+client/node_modules/
+client/build/
+client/.env
+client/.env.local
+client/.env.*.local
+
+# Editor junk
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Python / ML Model (Aurum-H1)
+# ---------------------------
+Aurum-H1/__pycache__/
+Aurum-H1/.pytest_cache/
+Aurum-H1/venv/
+Aurum-H1/env/
+Aurum-H1/*.pyc
+Aurum-H1/*.pyo
+Aurum-H1/*.pyd
+Aurum-H1/*.pkl
+Aurum-H1/*.h5
+Aurum-H1/*.pt
+Aurum-H1/.ipynb_checkpoints/
+Aurum-H1/.env
+Aurum-H1/.env.local
+Aurum-H1/.env.*.local
+
+# Model outputs / temp files
+Aurum-H1/output/
+Aurum-H1/tmp/
+Aurum-H1/runs/
+Aurum-H1/checkpoints/
+Aurum-H1/models/
+Aurum-H1/__pycache__/
+
+# ---------------------------
+# OS / Editor specific
+# ---------------------------
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------
+# Miscellaneous
+# ---------------------------
+*.bak
+*.tmp
+*.temp
