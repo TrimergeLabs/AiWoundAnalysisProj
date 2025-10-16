@@ -6,7 +6,7 @@ An AI-powered application that enables users to upload videos or images of wound
 
 This project facilitates wound monitoring by analyzing user-submitted wound images or videos. The AI model evaluates whether the wound is healing properly and delivers actionable guidance to support patient care. It also securely stores analysis results, allowing users and healthcare providers to track overall healing progress over time.
 
-## Mini Documentaion - see the [docs/AiWoundAnalysesDoc.pdf] 
+## Mini Documentaion - [AiWoundAnalysesDoc} [docs/AiWoundAnalysesDoc.pdf] 
 
 ## Features
 
