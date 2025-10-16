@@ -14,9 +14,23 @@ This project facilitates wound monitoring by analyzing user-submitted wound imag
 - Secure storage of all analyses for long-term tracking  
 - User-friendly interface for easy interaction
 
-## Technologies
+  
+## Technologies Used
 
-Built using machine learning models, computer vision techniques, and a web application framework for seamless AI integration and user experience.
+- **React**: Frontend framework used for building a responsive and interactive user interface for uploading wound images/videos and displaying analysis results.
+
+- **Firebase Authentication**: Provides secure and reliable user authentication and management, enabling users to sign in and access their wound analysis history safely.
+
+- **Express.js**: Backend server framework that handles API requests from the React client, communicates with the machine learning model, and manages data flow.
+
+- **MongoDB**: NoSQL database used to store user data, wound analysis records, and history of healing progress securely and efficiently.
+
+- **Flask**: Lightweight Python web framework hosting the machine learning model (Aurum-H1) for wound image and video analysis, providing REST APIs to the Express server.
+
+---
+
+This technology stack ensures a full-stack, scalable, and secure system leveraging modern web and AI tools for effective wound analysis and patient care.
+
 
 ## Usage
 
