@@ -6,8 +6,6 @@ An AI-powered application that enables users to upload videos or images of wound
 
 This project facilitates wound monitoring by analyzing user-submitted wound images or videos. The AI model evaluates whether the wound is healing properly and delivers actionable guidance to support patient care. It also securely stores analysis results, allowing users and healthcare providers to track overall healing progress over time.
 
-## Mini Documentaion - [AiWoundAnalysesDoc] [docs/AiWoundAnalysesDoc.pdf] 
-
 ## Features
 
 - Upload wound images or videos for AI analysis  
@@ -42,5 +40,8 @@ This technology stack ensures a full-stack, scalable, and secure system leveragi
 4. Access stored history for ongoing healing monitoring.
 
 ## github link to ml model - https://github.com/hemanthnaik813/Aurum-H1
+
+## Mini Documentaion 
+ For more details Checkout - [AiWoundAnalysesDoc.pdf][docs/AiWoundAnalysesDoc.pdf]
 
 ## Installation guide (will be added soon)
