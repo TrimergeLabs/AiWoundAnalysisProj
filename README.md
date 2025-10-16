@@ -42,6 +42,6 @@ This technology stack ensures a full-stack, scalable, and secure system leveragi
 ## github link to ml model - https://github.com/hemanthnaik813/Aurum-H1
 
 ## Mini Documentaion 
- For more details Checkout - [AiWoundAnalysesDoc.pdf][docs/AiWoundAnalysesDoc.pdf]
+ For more details Checkout - [AiWoundAnalysesDoc.pdf](docs/AiWoundAnalysesDoc.pdf)
 
 ## Installation guide (will be added soon)
